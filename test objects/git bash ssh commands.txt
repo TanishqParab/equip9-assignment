@@ -1,0 +1,7 @@
+ssh-agent bash
+ssh-add <key pair name.pem>
+ssh-add -L
+ssh -A ec2-user@<publicIP>
+ssh-add -L
+
+ssh -A ec2-user@<private IP>
